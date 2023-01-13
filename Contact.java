@@ -1,6 +1,7 @@
 package AddressBookManagement;
 
-public class Contacts {
+public class Contacts
+{
     //Variable Declaration for Contacts Class
     private String firstName;
     private String lastname;
@@ -10,6 +11,8 @@ public class Contacts {
     private String zip;
     private String phoneNo;
     private String emailID;
+
+    private String DOB ;
 
     //Adding Getter and Setter Methods for the Variables
     public String getFirstName() {
@@ -74,5 +77,10 @@ public class Contacts {
 
     public void setEmailID(String emailID) {
         this.emailID = emailID;
+
+    }
+
+    public void setDOB(String DOB) {
+        this.DOB = DOB;
     }
 }
